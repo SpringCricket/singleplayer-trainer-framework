@@ -1,0 +1,6 @@
+name: default
+process_name: Game.exe
+tick_hz: 30
+pointer_map: null
+enabled_by_default: []
+notes: "Baseline profile — override process_name and pointer_map per game."
