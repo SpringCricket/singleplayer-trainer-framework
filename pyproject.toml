@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "singleplayer-trainer-framework"
+version = "0.9.3"
+description = "Modular singleplayer trainer framework for Windows desktop — memory scanning, pointer chains, feature handlers, hotkey dispatch, and a plugin-ready trainer engine."
+readme = "CONTRIBUTING.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "spudworks", email = "dev@spudworks.dev" }]
+keywords = ["trainer", "singleplayer", "memory", "cheat", "reverse-engineering", "windows", "pymem"]
+
+dependencies = [
+    "pymem>=1.12.0",
+    "pywin32>=306",
+    "keyboard>=0.13.5",
+    "pydantic>=2.6",
+    "rich>=13.7",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-mock>=3.12", "ruff>=0.3", "mypy>=1.9"]
+
+[project.scripts]
+sptf = "trainer_bootstrap.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["trainer_bootstrap*", "trainer_core*", "feature_handlers*", "trainer_services*", "trainer_models*", "trainer_utils*", "trainer_config*", "pointer_maps*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
