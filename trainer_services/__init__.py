@@ -1,0 +1,1 @@
+"""Services — hotkeys, scanning, and (optionally) pointer map reload."""
