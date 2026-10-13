@@ -1,0 +1,1 @@
+"""Models — pointer maps, signatures, feature descriptors."""
