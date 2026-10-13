@@ -1,0 +1,1 @@
+"""Configuration — profile schema and loader."""
