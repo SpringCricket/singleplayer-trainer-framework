@@ -1,0 +1,1 @@
+"""Core engine — process handle, memory read/write, pointer chain resolution."""
