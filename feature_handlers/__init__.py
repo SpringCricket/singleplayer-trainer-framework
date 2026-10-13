@@ -1,0 +1,1 @@
+"""Feature handlers — one file per trainer feature (godmode, inf ammo, etc.)."""
