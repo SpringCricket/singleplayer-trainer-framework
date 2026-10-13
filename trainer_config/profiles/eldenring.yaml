@@ -1,0 +1,6 @@
+name: eldenring
+process_name: eldenring.exe
+tick_hz: 60
+pointer_map: eldenring
+enabled_by_default: [godmode]
+notes: "Tested against 1.12. Pointer chain offsets shift on patch — update pointer_maps/eldenring.json."
