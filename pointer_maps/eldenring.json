@@ -1,0 +1,13 @@
+{
+  "slug": "eldenring",
+  "module": "eldenring.exe",
+  "game_build": "1.12.0",
+  "entries": [
+    { "symbol": "player.health",    "module": "eldenring.exe", "base_offset": "0x3C7A2B0", "offsets": ["0x0", "0x8", "0x190"] },
+    { "symbol": "player.health_max","module": "eldenring.exe", "base_offset": "0x3C7A2B0", "offsets": ["0x0", "0x8", "0x194"] },
+    { "symbol": "player.pos_x",     "module": "eldenring.exe", "base_offset": "0x3C7A2B0", "offsets": ["0x0", "0x8", "0x70"] },
+    { "symbol": "player.pos_y",     "module": "eldenring.exe", "base_offset": "0x3C7A2B0", "offsets": ["0x0", "0x8", "0x74"] },
+    { "symbol": "player.pos_z",     "module": "eldenring.exe", "base_offset": "0x3C7A2B0", "offsets": ["0x0", "0x8", "0x78"] },
+    { "symbol": "player.vel_x",     "module": "eldenring.exe", "base_offset": "0x3C7A2B0", "offsets": ["0x0", "0x8", "0x2C0"] },
+    { "symbol": "player.vel_y",     "module": "eldenring.exe", "base_offset": "0x3C7A2B0", "offsets": ["0x0", "0x8", "0x2C4"] },
+    { "symbol": "weapon.clip",      "module": "eldenring.exe", "base_offset": "
