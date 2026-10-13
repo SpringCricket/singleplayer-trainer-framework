@@ -1,0 +1,28 @@
+# bytecode / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# virtualenvs
+.venv/
+venv/
+env/
+
+# build artifacts
+build/
+dist/
+*.spec
+
+# local trainer state — never commit
+trainer_config/local_profile.yaml
+pointer_maps/*.local.json
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
